@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gita complaint managmement system</title>
+    <style>
+        header{
+            width: 100%; height: 100vh;
+            background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('m2.jpg') ;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav{
+            height: 100%; height: 15vh;
+            background: ;
+            background-color:rgba(65, 65, 205, 0.872) ;
+            background-image: url(.jpg);
+            color: white; 
+            display: flex; 
+            justify-content: space-between;
+            align-items: center; 
+            text-transform: uppercase;
+            position: sticky;
+            top: 0;
+           }
+           .logo{
+               width: 25%; 
+               text-align: center;
+               background:;
+               color: black;
+            
+           }
+           .menu{
+               width: 40%;
+               background:;
+               display: flex; 
+               justify-content: space-around;
+              
+           }
+           .menu a{
+               width: 25%;
+               text-decoration: none; 
+               color: black;
+               font: bold;
+               text-shadow: #1b1b1b;
+               font-weight: 700;
+               
+           }
+           main{
+               width: 100%;
+               height: 75vh;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               text-align: center;
+               color: #fff;
+           }
+           section h3{
+               font-size: 35px; font-weight: 200; letter-spacing: 3px;
+               text-shadow: 1px 1px 2px black;
+           }
+           /* section h1{
+               margin: 30px 0 20px 0;
+               font-size: 55px;
+               font-weight: 700;
+               text-shadow: 2px 1px 5px black;
+               text-transform: uppercase; */
+           }
+           section p{
+               font-size: 25px;
+               color: ;
+               word-spacing: 2px;
+               text-shadow: 1px 1px 1px black;
+               margin-bottom: 25px;
+           }
+               
+           section a{
+               padding: 12px 30px;
+               border-radius: 4px;
+               outline: none;
+               text-decoration: none;
+               letter-spacing: 1px;
+               text-transform: uppercase;
+               font-size: 13px;
+               font-weight: 500;
+               transition: all .5c ease;
+           }
+           
+        
+        
+div
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+html, body{
+  margin: 0;
+font-family: 'Montserrat Alternates', sans-serif;
+  padding: 0;
+  background: #000;
+}
+footer{
+  width: 100%;
+  min-height: 300px;
+  max-height: auto;
+background-image: linear-gradient(to right top, #161616, #191919, #1b1b1b, #1e1e1e, #212121);
+  clear: both;
+}
+footer .footer-wrap{
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 9%;
+  color: white;
+}
+.widgetFooter{
+  width: calc(85%/3);
+  height: auto;
+  float: left;
+  padding: 2.5%;
+  text-align: left;
+}
+h4.uppercase{
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 20px;
+}
+ul#footerUsefulLink, ul#footerMediaLinks{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+ul#footerUsefulLink li, ul#footerMediaLinks li{
+  cursor: pointer;
+  /* transition: border-bottom 3s ease-in; */
+}
+ul#footerUsefulLink li:hover .usefulLinksIcons, ul#footerUsefulLink li:hover a{
+   color: #00CED1;
+   /* border-bottom: 1px solid red; */
+}
+ul#footerMediaLinks li:hover span.fb, ul#footerMediaLinks li:hover a.fb { color: #3b5998; }
+ul#footerMediaLinks li:hover span.twit, ul#footerMediaLinks li:hover a.twit { color: #1DA1F2; }
+ul#footerMediaLinks li:hover span.insta, ul#footerMediaLinks li:hover a.insta { color: #ffc838; }
+ul#footerMediaLinks li:hover span.git, ul#footerMediaLinks li:hover a.git { color: #f1502f; }
+
+div#footerLogo img{
+  width: 50%;
+  margin: 25% 0;
+}
+
+div.footerCopy{
+  clear: both;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+  border-top: 1px solid #ccc;
+  background: #262626;
+}
+
+@media (max-width:800px){
+  footer .footer-wrap{
+    width: 100%;
+    padding: 0;
+  }
+  .widgetFooter:not(:nth-of-type(2)){
+    width: calc(90%/2);
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .widgetFooter:nth-of-type(2){
+    display: none;
+  }
+  div.footerCopy{
+    font-size: 0.8em;
+  }
+}
+@media (max-width:600px){
+  .widgetFooter:not(:nth-of-type(2)){
+    text-align: left;
+  }
+}
+@media (max-width:500px){
+  footer{
+    min-height: auto;
+  }
+  .widgetFooter:not(:nth-of-type(2)){
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  ul#footerUsefulLink, ul#footerMediaLinks{
+    display: flex;
+  }
+  ul#footerUsefulLink li, ul#footerMediaLinks li{
+    float: left;
+    flex: 1;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  ul#footerUsefulLink li a, ul#footerMediaLinks li a{
+    display: none;
+  }
+  ul#footerUsefulLink li:hover, ul#footerUsefulLink li:hover .usefulLinksIcons, ul#footerUsefulLink li:hover a{
+     color: white;
+     background-color: #00CED1;
+  }
+  ul#footerMediaLinks li.media1:hover, ul#footerMediaLinks li:hover span.fb, ul#footerMediaLinks li:hover a.fb { background-color: #3b5998; color: white; }
+  ul#footerMediaLinks li.media2:hover, ul#footerMediaLinks li:hover span.twit, ul#footerMediaLinks li:hover a.twit { background-color: #1DA1F2; color: white; }
+  ul#footerMediaLinks li.media3:hover, ul#footerMediaLinks li:hover span.insta, ul#footerMediaLinks li:hover a.insta { background-color: #ffc838; color: white; }
+  ul#footerMediaLinks li.media4:hover, ul#footerMediaLinks li:hover span.git, ul#footerMediaLinks li:hover a.git { background-color: #f1502f; color: white; }
+}
+
+  /* dropdown */
+.button {
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .button {background-color: rgb(150, 147, 147);}
+
+.button
+{
+display: inline-block;
+color: #fff;
+text-decoration: none;
+padding: 20px 50px;
+border: 3px solid #313e33;
+border-radius: 10px;
+}
+@keyframes pulsate
+{
+0%
+{
+box-shadow: 0 0 25px #5dff68, 0 0 50px #4e00c2;
+}
+}
+.button:hover
+{
+animation: pulsate 5s ease-in-out;
+}
+
+/*search bar:-*/
+.search{
+    width: 330px;
+    float: left;
+    margin-left: ;
+
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 13px;
+    color:white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius :5px ;
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: black;
+    border: 2px solid black;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+
+
+
+
+.wrapper{
+        height: 40vh;
+        display: flex;
+        justify-content:center ;
+        align-items:center ;
+    }
+
+    .wrapper h1{
+        margin: 0;
+        font-size: 60px;
+        color:rgba(225,225,225, 0.01);
+        background-image: url("m1.jpg");
+        background-repeat: repeat;
+        -webkit-background-clip:text ;
+        animation: animate 25s ease-in-out infinite;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 3px;
+        
+    }
+    @keyframes animate {
+        0%,100%{
+            background-position: left top;
+        }
+        25%{
+            background-position: right bottom;
+        }
+        50%{
+            background-position: left bottom;
+        }
+        75%{
+            background-position: right top;
+        }
+    }
+
+    </style>
+</head>
+<body >
+
+<header >
+    <nav>
+        <div class="logo">
+            <h1><img style="border-radius:12px; height: 60px; width: auto;" src="logo.jpg" alt="gita logo"</h1>
+            <h1>gita bbsr</h1>
+        </div>
+        <div class="menu" >
+            <a href="mini2.html">home</a>
+            <a href="">login</a>
+            <a href=""> contact</a>
+            <a href=""> about</a>
+        </div>
+        <div class="search">
+          <input class="srch" type="search" name="" placeholder="Type To text">
+          <a href="https://www.google.com/"> <button class="btn">Search</button></a>
+      </div>
+    </nav>
+    <fieldset style="background-image: url(.jpg); position: sticky; top: 85px; background-color:rgb(84, 84, 217);" >
+        <div  style="
+        color: black;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px white;
+        text-transform: uppercase;
+        font-size: larger;
+        justify-content: space-between; ">
+            <marquee behavior="scroll" direction="left">
+                <a>Gandhi Institute of Technological Advancement (GITA) Autonomous College is one of the leading engineering colleges in bhubaneswar providing quality technical education and much more .</a>
+            </marquee>
+        </div>
+    </fieldset>
+        <main>
+            <section>
+             
+              <div class="wrapper">
+                <h1>
+                    <p>gita</p>
+                    <p>Autonomous college bbsr</p>
+                </h1>
+            </div>
+                <h3 style="text-transform:uppercase;">complaint managmement system</h3> 
+               
+                <p>"COMPLAINT HERE"</p>
+                
+                <div class="dropdown">
+                  <button class="button"><a href="login1.html">login</a></button>
+                  <div class="dropdown-content">
+                    <a href="login1.html">teacher</a>
+                    <a href="login1.html">student</a>
+                    <a href="login1.html">others</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="button"><a href="signup1.html">signup</a></button>
+                </div>
+                <hr>
+            </section>
+        </main>
+</header>
+<!-- <hr>    -->
+<footer>
+    <div class="footer-wrap">
+      <div class="widgetFooter">
+        <!-- <h4 class="uppercase">useful links</h4> -->
+        <ul id="footerUsefulLink">
+          <li title="About US">
+            <span class="usefulLinksIcons">
+              <i class="far fa-id-card"></i>
+            </span>
+            <a>&nbsp;About us</a>
+          </li>
+          <li title="Our Team">
+            <span class="usefulLinksIcons">
+              <i class="far fa-handshake"></i>
+            </span>
+            <a>&nbsp;Our team</a>
+          </li>
+          <li title="Gallery">
+            <span class="usefulLinksIcons">
+              <i class="far fa-images"></i>
+            </span>
+            <a>&nbsp;Gallery</a>
+          </li>
+          <li title="Contact Us">
+            <span class="usefulLinksIcons">
+              <i class="far fa-envelope"></i>
+            </span>
+            <a>&nbsp;feedback</a>
+          </li>
+        </ul>
+      </div>
+      <div class="widgetFooter" id="footerLogo">
+        <!-- <img src="Assets/images/main.png" alt="Logo"> -->
+      </div>
+      <div class="widgetFooter">
+        <!-- <h4 class="uppercase">Social media links</h4> -->
+        <ul id="footerMediaLinks">
+          <li class="media1" title="Facebook">
+            <span class="mediaLinksIcons fb">
+              <i class="fab fa-facebook-square"></i>
+            </span>
+            <a class="fb">&nbsp;facebook</a>
+          </li>
+          <li class="media2" title="Twitter">
+            <span class="mediaLinksIcons twit">
+              <i class="fab fa-twitter-square"></i>
+            </span>
+            <a class="twit">&nbsp;Twitter</a>
+          </li>
+          <li class="media3"  title="Instagram">
+            <span class="mediaLinksIcons insta">
+              <i class="fab fa-instagram"></i>
+            </span>
+            <a class="insta">&nbsp;instagram</a>
+          </li>
+          <li class="media4" title="Github">
+            <span class="mediaLinksIcons git">
+              <!-- <i class="feedback">feedback</i> -->
+            </span>
+            <a class="linkdin">&nbsp;linkdin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerCopy">
+      <div class="inb">
+        <p style="text-transform:uppercase ; word-spacing: 4px; ">develop by royal trioka</p>
+      </div>
+    </div>
+  </footer> 
+</body>
+</html>
